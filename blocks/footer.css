@@ -6,7 +6,7 @@
     padding-bottom: 60px;
     padding-top: 60px;
     background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
-    color:#fff
+    color:#fff;
     
   }
   
@@ -74,7 +74,7 @@
   }
   
   .footer__social-link:hover{
-    color: #c1c1c1
+    color: #c1c1c1;
   }
   
   .footer__social-icon {
