@@ -1,0 +1,109 @@
+
+.reservation {
+    background-color: #D9e7ff;
+    background-image: url(../Images/background_reservation.svg);
+    background-position: center;
+    background-size: cover;
+    
+    
+  }
+  .reservation__form {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 120px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .reservation__title {
+   padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin-bottom: 0;
+  }
+  
+  .form__fieldset {
+    width: 385px;
+    margin-bottom: 32px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 80px;
+    border: none;
+    
+  } 
+  
+  .form__label {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    
+  }
+  
+  .form__button[type="submit"] {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 32px;
+    width: 385px;
+    height: 60px;
+    transition: opacity, 2s, ease;
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    
+  }
+  
+  .form__button:hover {
+    opacity: 0.7;
+  }
+  
+  .form__input {
+    height: 60px;
+    width: 385px;
+    border-radius: 4px;
+    border-color: #838383;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    color: #838383;
+    padding: 27px;
+  }
+  
+  .form__input[type="text"]
+  .form__input[type="datetime-local"]
+  .form__input[type="email"] {
+    min-width: 385px;
+    min-height: 60px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 24px;
+  }
+  
+  
+  .form__checkbox {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form__input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    margin-right: 12px;
+    border-radius: 2px;
+    padding: 0;
+  }
+  
