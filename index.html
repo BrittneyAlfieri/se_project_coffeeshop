@@ -6,6 +6,9 @@
     <title>Practicum Coffee Shop</title>
     <link rel="stylesheet" href="./Pages/index.css"/>
     <link rel="stylesheet" href="./favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="page">
@@ -41,30 +44,27 @@
           alt="inside coffe shop image" 
           src="./Images/inside_coffee_shop.png"
           >
-        <div class="header__paragraph">
-          <ul class="header__paragraph-hours">
-            <li class="header__paragraph-items">Hours:</li>
-            <li class="header__paragraph-items">Monday-Friday (10:00-19:00)</li>
-            <li class="header__paragraph-items">Saturday-Sunday (11:00-18:00)</li>
-          </ul>
-          <ul class="header__paragraph-address">
-            <li class="header__paragraph-items">200 Success Avenue, The Town of Practicum
-            </li>
-          </ul>
+        <div class="header__footer">
+          <div class="header__paragraph-hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday-Friday (10:00-19:00)</p>
+            <p class="header__paragraph">Saturday-Sunday (11:00-18:00)</p>
+          </div>
+            <p class="header__paragraph">200 Success Avenue, The Town of Practicum</p>
         </div>
         
       </header>
       <main>
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
-          <h3 class="menu__subtitle">We brew coffee from locally roasted, 
+          <p class="menu__subtitle">We brew coffee from locally roasted, 
             Fairtrade certified beans and use biodegradable cups. All teas from
             our collectionare $2/cup.
-          </h3>
+          </p>
           <ul class="menu__cards">
             <li class="card">
+              <p class="card__title">Filter</p>
                 <ul class="card__list">
-                  <li class="card__title">Filter</li>
                   <li class="card__list-item">
                     Regular (12 oz)<span class="card__list-divider"></span>$1
                   </li>
@@ -83,8 +83,8 @@
                 </ul>
             </li>
             <li class="card">
+              <p class="card__title">Espresso</p>
                 <ul class="card__list">
-                  <li class="card__title">Espresso</li>
                   <li class="card__list-item">
                     Macchiato<span class="card__list-divider"></span>$2.25
                   </li>
@@ -100,8 +100,8 @@
                 </ul>
             </li>
             <li class="card">
+              <p class="card__title">Baked Goods</p>
                 <ul class="card__list">
-                  <li class="card__title">Baked Goods</li>
                   <li class="card__list-item">
                     Almond Croissant<span class="card__list-divider"></span>$2
                   </li>
@@ -127,7 +127,7 @@
         </section>
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <h3 class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</h3>
+          <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
             <div class="recipes__videos">
               <div class="recipes__video">
                 <iframe class="recipes__iframe" 
@@ -187,10 +187,10 @@
               <div class="form__checkbox">
                 <input
                 type="checkbox"
-                class="form__input"
-                name="terms of use"
+                class="form__checkbox"
+                name="terms-of-use"
                 id="terms-of-use">
-                <label class="form__label" for="terms-of-use">I agree with the terms of use</label>
+                <label class="form__label">I agree with the terms of use</label>
               </div>
             </fieldset>
           </form>
