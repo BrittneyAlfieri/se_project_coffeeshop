@@ -35,12 +35,14 @@
 
 .recipes__videos {
   gap: 40px;
- 
-   display: flex;
-   justify-content: center;
-   margin-right: auto;
-   margin-left: auto;
-   
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  list-style: none;
    
 }  
 
