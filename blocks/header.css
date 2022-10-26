@@ -9,7 +9,7 @@
     min-height: 720px;
     max-height: 800px;
     height: 100vh;
-    z-index:-2;
+    z-index: 1;
 }
 
 
@@ -26,8 +26,8 @@
     font-size: 60px;
     line-height: 72px;
     margin-bottom: 0;
-    position: relative;
-    z-index: 1;
+    
+   
 }
 
 .header__span-accent {
